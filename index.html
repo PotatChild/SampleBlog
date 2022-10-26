@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+        <link href="styles.css" rel="stylesheet">
+        <title>Sample Blog</title>
+    </head>
+    <body>
+        <!-- Dropdown Menu -->
+        <ul class="nav nav-pills">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Blog</a>
+              <ul class="dropdown-menu">
+                <li><a class="nav-link disabled">Recent</a></li>
+                <li><a class="dropdown-item" href="blog1.html">Blog Post 1</a></li>
+                <li><a class="dropdown-item" href="blog2.html">Blog Post 2</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="chapters.html">List of chapters</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="bubblewrap.html">Click for Anti-Stress</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="patreons.html">Patreons</a>
+              </li>
+            <li class="ms-auto nav-item">
+              <a class="nav-link disabled">Made by DC14</a>
+            </li>
+          </ul>
+          <!-- End of Dropdown -->
+          <!-- Start of Slides -->
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <!-- Images for slides -->
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="images/First.png" class="d-block w-100" alt="First website creation rant">
+              </div>
+              <div class="carousel-item" data-bs-interval="15000">
+                <img src="images/Second.png" class="d-block w-100" alt="Second website creation rant">
+              </div>
+              <div class="carousel-item">
+                <img src="images/Third.png" class="d-block w-100" alt="Third website creation rant">
+              </div>
+            </div>
+            <!-- Buttons to control which slide is shown -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <!-- Accordion, What is a DC14?-->
+          <div class="accordion" id="accordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What is a DC14?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>
+                    A DC14 is a complex being sometimes known as a <strong>potato</strong> or a member of the <strong>Poyo's.</strong>  A DC14 is an strange anomaly with interests in technology and other complex fields it calls hobbies. It's behavior patterns are quite strange, it often socializes and haves fun. Yet sometimes, when it has troubles fixing a problem, it goes through a passive aggresive rampage , ranting without giving context unless asked (Check pictures above).
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </body>
+</html>
